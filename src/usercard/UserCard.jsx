@@ -5,7 +5,7 @@ const userData = [{
     location: "USA",
     role: "Full-stock Developer",
     skills:["UI/UX","CSS","Java Script","React","NodeJs","Postgre SQL"],
-    profile: "/images/usercard/userimage1.jpg",
+    profile: "/images/usercard/image1.jpg",
     online: false
 },
 {
@@ -14,14 +14,14 @@ const userData = [{
     role: "Devops Developer",
     skills:["DevOps","AWS","Cloud Computing","Linux","Git","SQL"],
     online: true,
-    profile: "/images/usercard/userimage2.jpg",
+    profile: "/images/usercard/image2.jpg",
 },
 {
     name: "Mahee Dham",
     location: "Brazil",
     role: "Front-end Developer",
     skills:["UI/UX","CSS","Java Script","React","Figma","GIT"],
-    profile: "/images/usercard/userimage3.jpg",
+    profile: "/images/usercard/image3.jpg",
     online: false
 }
 ]
@@ -68,7 +68,3 @@ export const UserCard = () => {
        </>
   )
 }
-
-{/* <User name="Ramesh" location="Tiruvannmalai" role="Full-stock Developer" 
-skills={["UI/UX","CSS","Java Script","React","NodeJs","Postgre SQL"]}
-online={true} profile="/images/userimage1.jpg"/> */}

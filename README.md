@@ -1,8 +1,41 @@
-# React + Vite
+# User Card Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases user profile cards with info like name, location, status (online/offline), occupation, and skills. Also includes options to message or follow each user. Perfect for building UI skills! 😊
 
-Currently, two official plugins are available:
+<img src="https://i.redd.it/8u9m3jpd1qtz.png" alt="User Card Screenshot" width="490" height="270" align="right" >
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ✨ Features
+- **💬 User Status**: Easily see if the user is online (🟢) or offline (🔴).
+- **👤 User Info**: Displays each user's name, location, and job title.
+- **🔹 Action Buttons**: Buttons to **Message** 💌 and **Follow** 🧑‍🤝‍🧑 users.
+- **🛠️ Skills Section**: Lists skills with stylish tags for easy readability.
+
+ 🛠️ Technologies Used
+
+- **HTML5**: Structure the user interface.
+- **CSS3**: Style the cards and layout.
+- **JavaScript**: Handle dynamic content and interactions.
+- **Frameworks**: *React*
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/logesh-udhayakumar/user-card-project.git
+   cd user-card-project
+   
+2. **Install Dependencies (if using a framework setup)**:
+
+    ```bash
+
+    npm install
+
+3. **Run the Application**:
+
+    ```bash
+
+    npm start
