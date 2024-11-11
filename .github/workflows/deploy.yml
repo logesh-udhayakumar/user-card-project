@@ -31,7 +31,8 @@ jobs:
           name: production-files
           path: ./dist
         
-    download:
+  download:
+    name: Download
     runs-on: ubuntu-latest
     needs: build
     steps:
