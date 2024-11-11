@@ -5,8 +5,8 @@ const userData = [{
     location: "USA",
     role: "Full-stock Developer",
     skills:["UI/UX","CSS","Java Script","React","NodeJs","Postgre SQL"],
-    profile: "/images/usercard/image1.jpg",
-    online: false
+    profile: "images/image1.jpg",
+    online: true
 },
 {
     name: "Sunita Madwa",
@@ -14,14 +14,14 @@ const userData = [{
     role: "Devops Developer",
     skills:["DevOps","AWS","Cloud Computing","Linux","Git","SQL"],
     online: true,
-    profile: "/images/usercard/image2.jpg",
+    profile: "images/image2.jpg",
 },
 {
     name: "Mahee Dham",
     location: "Brazil",
     role: "Front-end Developer",
     skills:["UI/UX","CSS","Java Script","React","Figma","GIT"],
-    profile: "/images/usercard/image3.jpg",
+    profile: "images/image3.jpg",
     online: false
 }
 ]
@@ -32,7 +32,7 @@ function User(probs){
         <>
         <div className='card-container'>
             <span className={probs.online? "pro online" : "pro offline"}>{probs.online? "ONLINE" : "OFFLINE"}</span>
-        <img src={probs.profile} alt='user' className='img'></img>
+        <img src={probs.profile} alt='user-image' className='img'></img>
         <h3>{probs.name}</h3>
         <h3>{probs.location}</h3>
         <p>{probs.role}</p>
